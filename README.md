@@ -23,7 +23,7 @@
 **template\<class seconds_t\>  
 long long get_time() const;**  
 측정 메서드의 기본 템플릿입니다.  
-second_t가 측정값을 변환할 단위입니다. std::chrono에 존재하는 seconds 등을 넣으면 됩니다.
+second_t가 측정값을 변환할 단위입니다. std::chrono에 존재하는 seconds 등을 넣으면 됩니다.  
 이 템플릿을 통해 측정값을 추출해도 되지만, 권장하지 않습니다.  
   
 **long long get_nano() const;**  
