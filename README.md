@@ -20,7 +20,7 @@
 **void clear();**  
 측정한 내부 값을 초기화합니다.  
   
-**template<class seconds_t>  
+**template/<class seconds_t/>  
 long long get_time() const;**  
 측정 메서드의 기본 템플릿입니다.  
 이 템플릿을 통해 측정값을 추출해도 되지만, 권장하지 않습니다.  
